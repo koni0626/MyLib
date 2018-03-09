@@ -1,8 +1,7 @@
 #include "TCPServer.h"
 #include "KNSLog.h"
-
 int TCPServer::m_ClassNum = 0;
-
+//これはテストです
 /*
 * 機能:イベントとソケットの関連付けクラス　コンストラクタ
 * 引数:なし
