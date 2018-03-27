@@ -1,7 +1,8 @@
-#include "TCPServer.h"
+#include "TcpServer.h"
 #include "KNSLog.h"
+
 int TCPServer::m_ClassNum = 0;
-//これはテストです
+
 /*
 * 機能:イベントとソケットの関連付けクラス　コンストラクタ
 * 引数:なし
@@ -299,7 +300,7 @@ void TCPServer::CloseEventSocket(SOCKET s)
 * 引数:なし
 * 備考:なし
 */
-int TCPServer::ServerLoop()
+int NmnTCPServer::ServerLoop()
 {
 	int nRet = 0;
 	DWORD dwResult = 0;
